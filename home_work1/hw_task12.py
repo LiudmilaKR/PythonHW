@@ -13,15 +13,20 @@ while True:
     else:
         break
 
-if num == 1 or num % 2 == 0:
-    print(f'Число {num} не является простым.')
-elif num == 3:
+
+flag = False
+if num == 2 or num == 3:
     print(f'Число {num} - простое.')
+elif num == 1 or num % 2 == 0:
+    print(f'Число {num} не является простым.')
 else:
-    for i in range(3, num, 2):
+    for i in range(3, int(num / 2) + 2, 2):
         if num % i == 0:
             print(f'Число {num} не является простым.')
+            flag = False
             break
-        elif i == num - 2:
-            print(f'Число {num} - простое.')
-            break
+        else:
+            flag = True
+if flag:
+    print(f'Число {num} - простое.')
+

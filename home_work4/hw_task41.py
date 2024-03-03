@@ -20,6 +20,7 @@ def transpose_matrix(matr: list) -> list:
         for j in range(len(matr)):
             t_matrix_i.append(matr[j][i])
         t_matrix.append(t_matrix_i)
+    # t_matr = [[matr[j][i] for j in range(len(matr))] for i in range(len(matr[0]))]
     return t_matrix
     
     

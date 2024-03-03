@@ -6,6 +6,7 @@
 
 
 def build_dict(**kwargs):
+    # {v if v.__hash__ is not None else str(v): k for k, v in kwargs.items()}
     return kwargs
 
 
