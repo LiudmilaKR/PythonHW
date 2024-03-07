@@ -12,6 +12,16 @@ def gen_fibs(n: int):
         yield number
 
 
+def gen_fib1():
+    a, b = 0, 1
+    while True:
+        yield a
+        a, b = b, a + b
+
+
 if __name__ == '__main__':
     for i in gen_fibs(25):
         print(i, end=' ')
+
+# создаем генератор чисел
+    fib = gen_fib1()
