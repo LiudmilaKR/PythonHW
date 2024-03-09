@@ -5,8 +5,7 @@
 Программа получает на вход восемь пар чисел, каждое число от 1 до 8 - координаты 8 ферзей. 
 Если ферзи не бьют друг друга верните истину, а если бьют - ложь.
 '''
-# from chess import hw_task63
-# from hw_task63 import gen_pairs
+
 
 def qeens_task(qeens: set) -> tuple:
     """_summary_ функция, проверяющая бьют ли ферзи друг друга
@@ -18,8 +17,6 @@ def qeens_task(qeens: set) -> tuple:
         tuple: _description_ False\True, ферзь, бьющий другие
     """
 
-    # qeens = hw_task63.gen_pairs(n)
-    # print(f'Текущая расстановка ферзей => {qeens}')
     
     for item in qeens:
         temp_list = list(qeens)

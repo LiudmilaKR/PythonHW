@@ -1,11 +1,13 @@
 '''
 Проверяйте различный случайные варианты и выведите 4 успешных расстановки.
 '''
-from chess import hw_task62, hw_task63
+
+from chess import qeens_task, gen_pairs
+
 
 for i in range(10_000_000):
-    q = hw_task63.gen_pairs(8)
-    res = hw_task62.qeens_task(q)
+    q = gen_pairs(8)
+    res = qeens_task(q)
     if not res[0]:
         print(q)
         

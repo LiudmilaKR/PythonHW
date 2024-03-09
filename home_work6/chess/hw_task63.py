@@ -11,7 +11,6 @@ def gen_pairs(n: int) -> list:
     while len(set_pairs) < n:
         set_pairs.add((randint(1, 8), randint(1, 8)))
     return set_pairs
-    
 
 
 if __name__ == '__main__':
