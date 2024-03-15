@@ -1,0 +1,105 @@
+{
+  "name": "home_work8",
+  "type": "directory",
+  "content": [
+    {
+      "name": "hw_task82.py",
+      "type": "file",
+      "size": 406
+    },
+    {
+      "name": "mathimatical6",
+      "type": "directory",
+      "content": [
+        {
+          "name": "advanced_math6.py",
+          "type": "file",
+          "size": 493
+        },
+        {
+          "name": "base_math6.py",
+          "type": "file",
+          "size": 901
+        },
+        {
+          "name": "__init__.py",
+          "type": "file",
+          "size": 0
+        },
+        {
+          "name": "__pycache__",
+          "type": "directory",
+          "content": [
+            {
+              "name": "advanced_math6.cpython-310.pyc",
+              "type": "file",
+              "size": 759
+            },
+            {
+              "name": "base_math6.cpython-310.pyc",
+              "type": "file",
+              "size": 1194
+            },
+            {
+              "name": "__init__.cpython-310.pyc",
+              "type": "file",
+              "size": 157
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "package8",
+      "type": "directory",
+      "content": [
+        {
+          "name": "hw_func_from_sem8.py",
+          "type": "file",
+          "size": 4295
+        },
+        {
+          "name": "hw_task81.csv",
+          "type": "file",
+          "size": 1487
+        },
+        {
+          "name": "hw_task81.json",
+          "type": "file",
+          "size": 2790
+        },
+        {
+          "name": "hw_task81.py",
+          "type": "file",
+          "size": 2291
+        },
+        {
+          "name": "__init__.py",
+          "type": "file",
+          "size": 157
+        },
+        {
+          "name": "__pycache__",
+          "type": "directory",
+          "content": [
+            {
+              "name": "hw_func_from_sem8.cpython-310.pyc",
+              "type": "file",
+              "size": 4105
+            },
+            {
+              "name": "hw_task81.cpython-310.pyc",
+              "type": "file",
+              "size": 2270
+            },
+            {
+              "name": "__init__.cpython-310.pyc",
+              "type": "file",
+              "size": 395
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
